@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<launch>
+
+    <arg name="world_file" default="$(find python_astar_dummy_planner)/worlds/willowgarage_scaled.world" />
+    
+    <include file="$(find gazebo_ros)/launch/empty_world.launch">
+        <arg name="world_name" value="$(arg world_file)" />
+    </include>
+
+</launch>

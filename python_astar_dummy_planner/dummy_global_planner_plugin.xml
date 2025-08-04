@@ -1,0 +1,9 @@
+<library path="libdummy_global_planner">
+  <class name="dummy_global_planner/DummyGlobalPlanner"
+         type="dummy_global_planner::DummyGlobalPlanner"
+         base_class_type="nav_core::BaseGlobalPlanner">
+    <description>
+      Dummy planner that uses path published by external Python planner.
+    </description>
+  </class>
+</library>
